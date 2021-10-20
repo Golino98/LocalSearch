@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>localSearch</OriginalElement>
+  <nodes>
+    <node x="0.0" y="1038.0">localSearch.InitialSolutionHeuristicKnapsack</node>
+    <node x="594.0" y="512.0">localSearch.PolicySecondImprovement</node>
+    <node x="321.0" y="932.0">localSearch.InstanceReader</node>
+    <node x="0.0" y="0.0">localSearch.Solution</node>
+    <node x="726.0" y="797.0">localSearch.Move3Bits110</node>
+    <node x="297.0" y="1038.0">localSearch.InstanceReaderKnapsack</node>
+    <node x="605.0" y="680.0">localSearch.Move</node>
+    <node x="0.0" y="150.0">localSearch.SolutionKnapsack</node>
+    <node x="420.0" y="0.0">localSearch.LocalSearch</node>
+    <node x="297.0" y="523.0">localSearch.PolicyFirstImprovement</node>
+    <node x="968.0" y="797.0">localSearch.Move1Bit</node>
+    <node x="242.0" y="797.0">localSearch.Move4Bits1100</node>
+    <node x="211.0" y="106.0">localSearch.InstanceKnapsack</node>
+    <node x="211.0" y="0.0">localSearch.Instance</node>
+    <node x="297.0" y="406.0">localSearch.Policy</node>
+    <node x="1210.0" y="786.0">localSearch.Move3Bits110Infeasible</node>
+    <node x="29.5" y="932.0">localSearch.InitialSolutionHeuristic</node>
+    <node x="484.0" y="797.0">localSearch.Move5Bits11100</node>
+    <node x="0.0" y="545.5">localSearch.PolicyBestImprovement</node>
+    <node x="0.0" y="797.0">localSearch.Move2Bits10</node>
+    <node x="550.0" y="932.0">localSearch.Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="localSearch.PolicyBestImprovement" target="localSearch.Policy" relationship="REALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="138.5" y="487.0" />
+      <point x="435.5" y="487.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="localSearch.Move2Bits10" target="localSearch.Move" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="111.0" y="761.0" />
+      <point x="716.0" y="761.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="localSearch.InstanceKnapsack" target="localSearch.Instance" relationship="REALIZATION">
+      <point x="0.0" y="-105.5" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="localSearch.Move5Bits11100" target="localSearch.Move" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="595.0" y="761.0" />
+      <point x="716.0" y="761.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="localSearch.Move4Bits1100" target="localSearch.Move" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="353.0" y="761.0" />
+      <point x="716.0" y="761.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="localSearch.PolicyFirstImprovement" target="localSearch.Policy" relationship="REALIZATION">
+      <point x="0.0" y="-50.5" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="localSearch.InitialSolutionHeuristicKnapsack" target="localSearch.InitialSolutionHeuristic" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="localSearch.SolutionKnapsack" target="localSearch.Solution" relationship="REALIZATION">
+      <point x="0.0" y="-105.5" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="localSearch.Move3Bits110Infeasible" target="localSearch.Move" relationship="REALIZATION">
+      <point x="0.0" y="-50.5" />
+      <point x="1321.0" y="761.0" />
+      <point x="716.0" y="761.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="localSearch.PolicySecondImprovement" target="localSearch.Policy" relationship="REALIZATION">
+      <point x="0.0" y="-61.5" />
+      <point x="732.5" y="487.0" />
+      <point x="435.5" y="487.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="localSearch.Move3Bits110" target="localSearch.Move" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="837.0" y="761.0" />
+      <point x="716.0" y="761.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="localSearch.Move1Bit" target="localSearch.Move" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="1079.0" y="761.0" />
+      <point x="716.0" y="761.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="localSearch.InstanceReaderKnapsack" target="localSearch.InstanceReader" relationship="REALIZATION">
+      <point x="0.0" y="-28.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.6226912928759895" showDependencies="false" x="716.0" y="558.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
